@@ -8,8 +8,8 @@ https://visualstudio.microsoft.com/vs/.
 
 After installing Visual Studio Code, install the LiveServer extension.
 
-"Hotel Booking" allows users to create admin accounts to access booking details in the dashboard. The hotel info is provided by a data seeding file, so in order to access the data, the backend code must be run in
-Visual Studio. Before running the application, delete all files in the Migration folder and open the Package Manager window.
+"Hotel Booking" allows users to create admin accounts to access booking details in the dashboard. The hotel info is provided by a database seeding file, so in order to access the data, the backend code must be
+run in Visual Studio. Before running the application, delete all files in the Migration folder and open the Package Manager window.
 Write "add-migration Initial" and wait for the command to finish.
 Write "Update-Database" to complete the process.
 
